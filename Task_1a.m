@@ -1,6 +1,6 @@
 %% Getting data from supplied data-set
 clear;
-rawdata = load('data_all.mat');
+rawdata = load('datasets/data_all.mat');
 
 %Content of data_all.mat: num_test, num_train, testlab, testv, trainlab, trainv,vec_size 
 data.train_labels = rawdata.trainlab;
